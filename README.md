@@ -18,12 +18,12 @@ Build a SQL Server-based mini data warehouse for sales analytics using raw CSV e
 ## Specification
 | File                | Purpose                          | Key Columns (examples)                                                                                               |
 | ------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `sales_details.csv` | Sales transactions (order lines) | `sls_ord_num`, `sls_prd_key`, `sls_cust_id`, `sls_order_dt`, `sls_ship_dt`, `sls_sales`, `sls_quantity`, `sls_price` |
-| `prd_info.csv`      | Product master data              | `prd_key`, `prd_nm`, `prd_cost`, `prd_line`, `prd_start_dt`, `prd_end_dt`                                            |
-| `cust_info.csv`     | Customer master data             | `cst_id`, `cst_key`, `cst_firstname`, `cst_lastname`, `cst_marital_status`, `cst_gndr`, `cst_create_date`            |
-| `CUST_AZ12.csv`     | Customer enrichment              | `CID`, `BDATE`, `GEN`                                                                                                |
-| `LOC_A101.csv`      | Customer location                | `CID`, `CNTRY`                                                                                                       |
-| `PX_CAT_G1V2.csv`   | Product category reference       | `ID`, `CAT`, `SUBCAT`, `MAINTENANCE`                                                                                 |
+| `sales_details` | Sales transactions (order lines) | `sls_ord_num`, `sls_prd_key`, `sls_cust_id`, `sls_price` |
+| `prd_info`      | Product master data              | `prd_key`, `prd_nm`, `prd_cost`, `prd_line`, `prd_start_dt`, `prd_end_dt`                                            |
+| `cust_info`     | Customer master data             | `cst_id`, `cst_key`, `cst_firstname`,  `cst_create_date`            |
+| `CUST_AZ12`     | Customer enrichment              | `ID`, `BDATE`, `GEN`                                                                                                |
+| `LOC_A101`      | Customer location                | `ID`, `CNTRY`                                                                                                       |
+| `PX_CAT_G1V2`   | Product category reference       | `ID`, `CAT`, `SUBCAT`, `MAINTENANCE`                                                                                 |
 
 
 ## Analytic Reporting Requirements
@@ -78,4 +78,4 @@ Create reporting views (or stored procedures) that support the following simple 
 
 
 ## About me
-Hi there! I'm a lead Data Engineer with over 15 years data Experience. I am passionate about Data
+Hi there! My name is Abi. I'm a lead Data Engineer with over 15 years data Experience. I am passionate about Data
